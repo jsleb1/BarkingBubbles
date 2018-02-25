@@ -1,0 +1,321 @@
+
+body {
+	margin: 50px auto;
+	font-family: 'Gudea', sans-serif;
+}
+
+img {
+	margin: 0 auto;
+}
+
+.header {
+	height: 200px;
+	background-color: rgb(221, 214, 199);
+}
+
+.like {
+	color: white;
+	position: absolute;
+	top: 20px;
+	left: 60px;
+	right: 0;
+	bottom: 0;
+	font-family: 'Gudea', sans-serif;
+	font-size: 1.3em;
+}
+
+.topIcon {
+	font-size: 2.5em;
+	margin-left: 80px;
+}
+
+.sched {
+	color: white;
+	position: absolute;
+	top: 20px;
+	right: 0;
+	left: 75%;
+	bottom: 0;
+	font-family: 'Gudea', sans-serif;
+	font-size: 1.3em;
+}
+
+.phoneTop {
+	margin-left: 18%;
+}
+
+.logo {
+	max-height: 170px;
+	max-width: 300px;
+	margin: 20px auto;
+}
+
+.nav {
+	color: white;
+	background-color: rgb(104, 201, 195);
+	width: 80%;
+	margin: 0 auto;
+	list-style: none;
+}
+
+.navList {
+	display: block;
+	float: left;
+	font-variant: small-caps;
+	margin: 5px auto 0;
+	width: 20%;
+	font-family: 'Rancho', cursive;
+	letter-spacing: .3em;
+}
+
+.navList a {
+	color: white;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+
+.navList a:hover {
+	color: rgb(145, 11, 13);
+	text-decoration: none;
+}
+
+.box {
+	font-family: 'Gudea', sans-serif;
+	position: absolute;
+	top: 250px;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: scroll;
+}
+
+.box h2 {
+	color: rgb(145, 11, 13);
+	font-family: 'Rancho', cursive;
+}
+
+.box h3 {
+	color: rgb(145, 11, 13);
+	font-family: 'Rancho', cursive;
+}
+
+.box h4 {
+	color: rgb(145, 11, 13);
+	font-family: 'Gudea', sans-serif;
+}
+
+.box h5 {
+	color: rgb(145, 11, 13);
+	font-family: 'Gudea', sans-serif;
+}
+
+.welcome {
+	color: rgb(145, 11, 13);
+	font-size: 1.4em;
+	margin: 0 auto;
+	font-family: 'Gudea', sans-serif;
+}
+
+.banner {
+	display: block;
+	margin: 10px auto 0;
+}
+
+.bannerQuote {
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+}
+
+.bannerState {
+	color: rgb(145, 11, 13);
+	font-size: 1.6em;
+	font-family: 'Gudea', sans-serif;
+}
+
+.welcomeLocation {
+	background-color: rgb(221, 214, 199);
+	border: solid 2px gray;
+}
+
+.welcomeLocation h4 {
+	font-family: 'Gudea', sans-serif;
+}
+
+.section {
+	background-color: rgb(104, 201, 195);
+	height: auto;
+}
+
+.section0 {
+	background-color: rgb(221, 214, 199);
+	height: auto;
+	border-bottom: solid 3px rgb(104, 201, 195);
+}
+
+.section1 {
+	background-color: rgb(221, 214, 199);
+	height: auto;
+}
+
+.img-about {
+	height: auto;
+	width: 80%;
+	margin-bottom: 10px;
+}
+
+.bio {
+	border-right: solid 2px rgb(104, 201, 195);
+	background-color: rgb(104, 201, 195);
+	padding-left: 0;
+	margin-right: 0;
+}
+
+.bioQuote {
+	margin-bottom: 20px;
+}
+
+.bio figcaption {
+	margin: 0 auto 10px;
+	font-family: 'Gudea', sans-serif;
+	font-size: 1.1em;
+	width: 85%;
+}
+
+.aboutDescrip {
+	display: block;
+	font-family: 'Gudea', sans-serif;
+	font-size: 1.2em;
+	margin: 0 auto;
+	width: 90%;
+	text-align: center;
+}
+
+.labGroom {
+	max-height: 300px;
+	width: 80%;
+}
+
+.teste {
+	font-family: 'Gudea', sans-serif;
+}
+
+.grooming {
+	background-color: white;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.serv {
+	padding-right: 0;
+	margin-right: 0;
+}
+
+.pricing {
+	background-color: rgb(221, 214, 199);
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.dogGroom {
+	background-color: white;
+	margin-bottom: 15px;
+}
+
+.servIntro {
+	background-color: white;
+	padding-bottom: 0;
+}
+
+.services {
+	background-color: white;
+	margin-bottom: 15px;
+	padding-top: 0;
+}
+
+.groomList {
+	display: block;
+	float: left;
+	width: 50%;
+}
+
+.prices {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.priceList {
+	display: block;
+	float: left;
+	width: 50%;
+	font-weight: bolder;
+}
+.breedPrice {
+	background-color: rgb(221, 214, 199);
+	margin: 0 auto;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.breedPrices {
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+}
+
+.benefits {
+	list-style: none;
+}
+
+.puppies {
+	list-style: none;
+	margin: 0 auto 20px;
+}
+
+.section1 h3 {
+	margin-top: 10px;
+}
+
+.boutiquePhoto {
+	margin: 20px auto 0;
+}
+
+.productList {
+	display: block;
+	list-style: none;
+
+}
+
+.storePhoto {
+	margin: 10px auto;
+}
+
+.diplomaPhoto {
+	margin: 10px auto;
+}
+
+.icon {
+	font-size: 2em;
+}
+
+.contactHead {
+	margin: 0 auto 20px;
+}
+
+.contact {
+	list-style: none;
+}
+
+.foot {
+	height: 120px;
+	background-color: rgb(104, 201, 195);
+}
+
+.footInfo {
+	font-size: 1.4em;
+	letter-spacing: .1em;
+	color: white;
+	margin: 20px auto 0;
+	font-family: 'Gudea', sans-serif;
+}
