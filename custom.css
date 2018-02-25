@@ -12,17 +12,17 @@ label {
     text-transform: uppercase;
     letter-spacing: 0.1em;
     margin-bottom: 20px;
-    background-color: rgb(104, 201, 195);
+    background-color: rgb(135, 206, 235);
 }
 
 .btn-success {
-    background-color: rgb(104, 201, 195);
+    background-color: rgb(135, 206, 235);
 }
 
 .btn {
-    background-color: rgb(104, 201, 195);
+    background-color: rgb(135, 206, 235);
 }
 
 input {
-    background-color: rgb(104, 201, 195);
+    background-color: rgb(135, 206, 235);
 }
