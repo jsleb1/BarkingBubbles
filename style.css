@@ -1,3 +1,7 @@
+html {
+	background-image: url(bubbles-2.jpeg);
+}
+
 
 body {
 	margin: 50px auto;
@@ -88,6 +92,7 @@ img {
 }
 
 .box {
+	background-color: white;
 	font-family: 'Gudea', sans-serif;
 	position: absolute;
 	top: 250px;
