@@ -102,9 +102,15 @@ img {
 	overflow-y: scroll;
 }
 
+.box h1 {
+	color: rgb(145, 11, 13);
+	font-family: 'Rancho', cursive;
+}
+
 .box h2 {
 	color: rgb(145, 11, 13);
 	font-family: 'Rancho', cursive;
+	font-size: 1.8em;
 }
 
 .box h3 {
@@ -325,7 +331,7 @@ img {
 }
 
 .foot {
-	height: 120px;
+	height: 200px;
 	background-color: rgb(135, 206, 235);
 }
 
@@ -339,7 +345,7 @@ img {
 
 .credit {
 	color: rgb(145, 11, 13);
-	font-size: .6em;
+	font-size: .7em;
 	font-family: 'Gudea', sans-serif;
 }
 
