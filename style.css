@@ -18,7 +18,7 @@ img {
 }
 
 .like {
-	color: white;
+	color: rgb(145, 11, 13);
 	position: absolute;
 	top: 20px;
 	left: 60px;
@@ -34,7 +34,7 @@ img {
 }
 
 .sched {
-	color: white;
+	color: rgb(145, 11, 13);
 	position: absolute;
 	top: 20px;
 	right: 0;
@@ -46,7 +46,7 @@ img {
 }
 
 .phoneTop {
-	color: white;
+	color: rgb(145, 11, 13);
 	position: absolute;
 	top: 45px;
 	right: 0;
@@ -337,15 +337,20 @@ img {
 
 .footInfo {
 	font-size: 1.4em;
-	letter-spacing: .1em;
-	color: white;
+	color: rgb(145, 11, 13);
 	margin: 20px auto 0;
 	font-family: 'Gudea', sans-serif;
 }
 
+.phoneBot {
+	color: rgb(145, 11, 13);
+	font-weight: bolder;
+}
+
+
 .credit {
 	color: rgb(145, 11, 13);
-	font-size: .7em;
+	font-size: .8em;
 	font-family: 'Gudea', sans-serif;
 }
 
