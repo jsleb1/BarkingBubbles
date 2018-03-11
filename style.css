@@ -19,6 +19,7 @@ img {
 
 .like {
 	color: rgb(145, 11, 13);
+    text-shadow: 0 0 3px grey, 0 0 5px white;
 	position: absolute;
 	top: 20px;
 	left: 60px;
@@ -29,12 +30,14 @@ img {
 }
 
 .topIcon {
+	background-color: rgba(192,237,251,0.4);
 	font-size: 2.5em;
 	margin-left: 80px;
 }
 
 .sched {
 	color: rgb(145, 11, 13);
+    text-shadow: 0 0 3px grey, 0 0 5px white;
 	position: absolute;
 	top: 20px;
 	right: 0;
@@ -42,18 +45,19 @@ img {
 	bottom: 0;
 	font-family: 'Gudea', sans-serif;
 	font-size: 1.4em;
-	font-weight: bolder;
+	font-weight: normal;
 }
 
 .phoneTop {
 	color: rgb(145, 11, 13);
+    text-shadow: 0 0 3px grey, 0 0 5px white;
 	position: absolute;
 	top: 45px;
 	right: 0;
 	left: 63%;
 	bottom: 0;
 	margin-left: 18%;
-	font-weight: normal;
+	font-weight: bold;
 }
 
 .logo {
@@ -188,6 +192,17 @@ img {
 	background-color: rgb(135, 206, 235);
 	padding-left: 0;
 	margin-right: 0;
+}
+
+.name {
+	font-weight: bolder;
+    text-shadow: 0 0 3px grey, 0 0 5px white;
+    margin: 10px auto 0;
+}
+
+.owner {
+	font-weight: bold;
+	margin: 5px auto 0;
 }
 
 .bioQuote {
@@ -330,13 +345,17 @@ img {
 	list-style: none;
 }
 
+.map {
+	margin: 20px auto 0;
+}
+
 .foot {
-	height: 200px;
 	background-color: rgb(135, 206, 235);
 }
 
 .footInfo {
 	font-size: 1.4em;
+	letter-spacing: .15em;
 	color: rgb(145, 11, 13);
 	margin: 20px auto 0;
 	font-family: 'Gudea', sans-serif;
@@ -344,14 +363,20 @@ img {
 
 .phoneBot {
 	color: rgb(145, 11, 13);
+    text-shadow: 0 0 3px grey, 0 0 5px white;
 	font-weight: bolder;
 }
 
 
 .credit {
 	color: rgb(145, 11, 13);
-	font-size: .8em;
-	font-family: 'Gudea', sans-serif;
+	font-size: .7em;
+	font-family: 'Gudea', sans-serif;\
+	margin-bottom: 12px;
+}
+
+.designer {
+	margin: 0 auto 12px;
 }
 
 .credit:hover {
